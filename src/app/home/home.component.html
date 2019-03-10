@@ -1,0 +1,25 @@
+
+<div class="container color-dark">
+  <div class="col">
+    <p>agrega una elemento a la lista</p>
+  </div>
+  <div class="col">
+    <p>tu lista de elementos({{ itemCount }})</p>
+  </div>
+</div>
+<div class="container color-light">
+  <div class="col">
+    <p class="sm">utilice este formulario para agregar un nuevo objetivo a la lista. ¿Que es lo que quieres hacer en tu vida? </p>
+  
+    <form>
+      <input type="text" class="txt" name="item" placeholder="life goal...">
+      <input type="submit" class="btn" [value]="btnText">
+    </form>
+  </div>
+  <div class="col">
+    <p class="life-container">
+     Quiero viajar a los canales de Venecia.
+     Quiero tener mucho dinero.
+    </p>
+  </div>
+</div>
